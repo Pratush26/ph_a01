@@ -12,6 +12,7 @@
 #hero-section h1{
     text-align: center;
     font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
 }
 nav{
     padding: 20px 100px;
@@ -20,15 +21,19 @@ nav{
 }
 nav a {
     color: var(--color);
-    font-size: xx-large;
+    font-size: 34px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: bolder;
     font-weight: 700;
 }
 #action-section{
     margin: 50px;
     padding: 50px;
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 #action-section article{
     display: flex;
@@ -48,7 +53,7 @@ nav a {
 }
 .card{
     background-color: white;
-    padding: 20px;
+    padding: 30px 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -60,6 +65,7 @@ nav a {
     margin: 80px auto;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 #form-section button{
     margin: 10px auto;
@@ -86,9 +92,16 @@ input, textarea{
 textarea{
     min-height: 50px;
 }
-footer, footer a{
+footer{
     padding: 40px;
+}
+footer, footer a{
     text-align: center;
     background-color: white;
     color: gray;
+}
+footer h2{
+    font-family: "Cal Sans", sans-serif;
+    font-size: 4rem;
+    color: var(--color);
 }
